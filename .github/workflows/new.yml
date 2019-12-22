@@ -12,9 +12,9 @@ name: 云编译2.0-x86_64
 on:
   schedule:
     - cron: 0 20 * * *
-  push:
-     branches: 
-       - master
+  # push:
+     # branches: 
+       # - master
 
 jobs:
   build:
